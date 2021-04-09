@@ -1,0 +1,235 @@
+.user_element {
+  display: flex;
+  flex-direction: column;
+  background-color: lavender;
+  padding: 0;
+  margin: 0;
+  height: min-content;
+}
+
+.container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  width: 75%;
+  margin-left: 0;
+  flex-wrap: wrap;
+  background-color: grey;
+  height: 91.7vh;
+}
+
+.vid {
+  width: 30rem;
+  /* border: 2px solid blue; */
+
+  padding: 0;
+  margin: 0;
+}
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.name {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 0.5rem;
+  border: 2px solid black;
+}
+
+.chatbox {
+  width: 30%;
+  background-color: lavender;
+  height: 91.7vh;
+}
+
+.view {
+  display: flex;
+  flex-direction: row;
+}
+.text {
+  background-color: rgb(93, 93, 230);
+  text-align: center;
+}
+.bt {
+  margin-left: 0.2rem;
+  margin-top: 32rem;
+  margin-right: 0.2rem;
+  height: 2rem;
+  background-color: blue;
+  border-radius: 1rem;
+  border: none;
+}
+.btn-primary {
+  margin-left: 0.2rem;
+  /* margin-top: -50rem; */
+  margin-right: 0.2rem;
+  height: 2.5rem;
+  text-align: center;
+  text-decoration-color: white;
+  border: 1px solid turquoise;
+  border-radius: 5px;
+  
+  
+}
+.txta {
+  margin-left: 0.2rem;
+  margin-top: 32rem;
+  height: 2rem;
+  border-radius: 0.8rem;
+  border: 2px solid black;
+}
+form {
+  display: grid;
+  grid-template-columns: 1fr 6rem;
+  grid-gap: 1rem;
+}
+.switchh {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 0.5rem;
+}
+
+.myMessage{
+  display: flex;
+  justify-content: flex-end;
+}
+.myMessage button{
+  background-color: pink;
+  width: 7rem;
+  margin: 3px;
+  border: 0px solid black;
+  border-radius: 3px;
+  
+}
+.partnerMessage{
+  display: flex;
+  justify-content: flex-start;
+}
+.partnerMessage button{
+  background-color: rgba(57, 199, 235, 0.774);
+  width: 7rem;
+  margin: 3px;
+  border: 0px solid black;
+  border-radius: 3px;
+}
+
+.entry{
+  display: flex;
+  flex-direction: column;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+/* style.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  font-size: 50px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  color: white;
+  font-family: Verdana;
+}
+
+.main {
+  
+  height: 100vh;
+  background-size: cover;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: white;
+}
+.nav {
+  display: flex;
+  background: rgb(108, 108, 235);
+  height: 4rem;
+  align-items: center;
+  box-shadow: white;
+}
+.links {
+  width: 60%;
+  /* background-color: pink; */
+  margin-left: 7rem;
+}
+.links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+.links li {
+  margin: 0 1.3rem;
+}
+.icon p {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.title {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+.text p {
+  font-size: 3rem;
+  font-family: "Ubuntu", sans-serif;
+}
+.btn {
+  text-align: center;
+  margin-top: 2rem;
+}
+.btnn {
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  background: blue;
+  border: 2px solid black;
+  color: white;
+  transition: all 0.3s linear;
+  font-size: 20px;
+  margin-top: 60px;
+}
+.btnn:hover {
+  background: transparent;
+  color: blue;
+  /* border: 2px solid blue; */
+}
+
+.signin{
+  margin-left: auto;
+
+}
+
+.small{
+  height: 50px;
+  width: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 2px;;
+  
+}
+
+.btn-primary{
+  border-radius: 5px;;
+}
+
+.roomid{
+  font-size: 36px;
+}
+
+.room_id_div{
+  
+
+}

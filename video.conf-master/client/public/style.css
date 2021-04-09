@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  font-size: 50px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  color: white;
+  font-family: Verdana;
+}
+
+.main {
+  
+  height: 100vh;
+  background-size: cover;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: white;
+}
+.nav {
+  display: flex;
+  background: rgb(108, 108, 235);
+  height: 4rem;
+  align-items: center;
+  box-shadow: white;
+}
+.links {
+  width: 60%;
+  /* background-color: pink; */
+  margin-left: 7rem;
+}
+.links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+.links li {
+  margin: 0 1.3rem;
+}
+.icon p {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.title {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+.text p {
+  font-size: 3rem;
+  font-family: "Ubuntu", sans-serif;
+}
+.btn {
+  text-align: center;
+  margin-top: 2rem;
+}
+.btnn {
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  background: blue;
+  border: 2px solid black;
+  color: white;
+  transition: all 0.3s linear;
+  font-size: 20px;
+  margin-top: 60px;
+}
+.btnn:hover {
+  background: transparent;
+  color: blue;
+  /* border: 2px solid blue; */
+}
+
+.signin{
+  margin-left: auto;
+
+}
+
+.small{
+  height: 50px;
+  width: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 2px;;
+  
+}
+
+.btn-primary{
+  border-radius: 5px;;
+}
